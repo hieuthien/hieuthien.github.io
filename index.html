@@ -709,42 +709,42 @@
 <script src="plugins/arcontactus.js"></script>
 <script>
   
-  // jQuery(document).ready(function() {
+  jQuery(document).ready(function() {
 
-  //   if (jQuery('.is-apartment').length) {
-  //     setTimeout(function() {
-  //       jQuery('.panel').each(function() {
-  //         jQuery(this).find('.apartment-viewer').each(function() {
-  //           jQuery(this).find('> a').first().trigger('mouseenter')
-  //         })
-  //       })
-  //     }, 500);
+    if (jQuery('.is-apartment').length) {
+      setTimeout(function() {
+        jQuery('.panel').each(function() {
+          jQuery(this).find('.apartment-viewer').each(function() {
+            jQuery(this).find('> a').first().trigger('mouseenter')
+          })
+        })
+      }, 500);
 
-  //     jQuery('.apartment-viewer > a').hover(function() {
-  //       var aiViewer = jQuery(this).parents('.ai-viewer');
-  //       var towerName = aiViewer.find('a.ai-tower-button.active').attr('data-name');
-  //       var parentViewer = jQuery(this).parents('.viewer');
-  //       var infoViewerName = parentViewer.find('.info-viewer .name');
-  //       var infoViewerConstruction = parentViewer.find('.info-viewer .construction');
-  //       var infoViewerUsable = parentViewer.find('.info-viewer .usable');
-  //       infoViewerName.html(jQuery(this).attr('data-name'));
-  //       infoViewerConstruction.html(jQuery(this).attr('data-construction'));
-  //       infoViewerUsable.html(jQuery(this).attr('data-usable'));
-  //       parentViewer.find('.apartment-viewer[data-name="' + towerName + '"] > a').removeClass('active');
-  //       jQuery(this).addClass('active')
-  //     }, function() {})
-  //   }
-  // });
+      jQuery('.apartment-viewer > a').hover(function() {
+        var aiViewer = jQuery(this).parents('.ai-viewer');
+        var towerName = aiViewer.find('a.ai-tower-button.active').attr('data-name');
+        var parentViewer = jQuery(this).parents('.viewer');
+        var infoViewerName = parentViewer.find('.info-viewer .name');
+        var infoViewerConstruction = parentViewer.find('.info-viewer .construction');
+        var infoViewerUsable = parentViewer.find('.info-viewer .usable');
+        infoViewerName.html(jQuery(this).attr('data-name'));
+        infoViewerConstruction.html(jQuery(this).attr('data-construction'));
+        infoViewerUsable.html(jQuery(this).attr('data-usable'));
+        parentViewer.find('.apartment-viewer[data-name="' + towerName + '"] > a').removeClass('active');
+        jQuery(this).addClass('active')
+      }, function() {})
+    }
+  });
 
   //header menu
-  // $("#nav-hamburger-icon").on('click', () => {
-  //   $(".nav-menu").addClass('show');
-  //   $(".nav-menu-overlay").show();
-  // });
-  // $(".close-menu").on('click', () => {
-  //   $(".nav-menu").removeClass('show');
-  //   $(".nav-menu-overlay").hide();
-  // })
+  $("#nav-hamburger-icon").on('click', () => {
+    $(".nav-menu").addClass('show');
+    $(".nav-menu-overlay").show();
+  });
+  $(".close-menu").on('click', () => {
+    $(".nav-menu").removeClass('show');
+    $(".nav-menu-overlay").hide();
+  })
 
   // dropdown
   $('.dropdown').on('click', function (e) {
