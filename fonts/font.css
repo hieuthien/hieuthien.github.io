@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Harmonia';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Harmonia'), local('Harmonia-Light'),
+    url('RV-Harmonia-Light.eot'), url('RV-Harmonia-Light.eot?#iefix') format('embedded-opentype'),
+    url('RV-Harmonia-Light.woff') format('woff'),
+    url('RV-Harmonia-Light.ttf') format('truetype'),
+    url('RV-Harmonia-Light.svg#roboto_condensedregular') format('svg');
+}
+@font-face {
+    font-family: 'Harmonia';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Harmonia'), local('Harmonia-Regular'),
+    url('RV-Harmonia-Regular.eot'), url('RV-Harmonia-Regular.eot?#iefix') format('embedded-opentype'),
+    url('RV-Harmonia-Regular.woff') format('woff'),
+    url('RV-Harmonia-Regular.ttf') format('truetype'),
+    url('RV-Harmonia-Regular.svg#roboto_condensedregular') format('svg');
+}
+@font-face {
+    font-family: 'Harmonia';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Harmonia'), local('Harmonia-SemiBold'),
+    url('RV-Harmonia-SemiBold.eot'), url('RV-Harmonia-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('RV-Harmonia-SemiBold.woff') format('woff'),
+    url('RV-Harmonia-SemiBold.ttf') format('truetype'),
+    url('RV-Harmonia-SemiBold.svg#roboto_condensedregular') format('svg');
+}
+@font-face {
+    font-family: 'Harmonia';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Harmonia'), local('Harmonia-SemiBold'),
+    url('RV-Harmonia-Bold.eot'), url('RV-Harmonia-Bold.eot?#iefix') format('embedded-opentype'),
+    url('RV-Harmonia-Bold.woff') format('woff'),
+    url('RV-Harmonia-Bold.ttf') format('truetype'),
+    url('RV-Harmonia-Bold.svg#roboto_condensedregular') format('svg');
+}
+@font-face {
+    font-family: 'Tiempos';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Tiempos'), local('Tiempos-Medium'),
+    url('TiemposHeadline-Medium.eot'), url('TiemposHeadline-Medium.eot?#iefix') format('embedded-opentype'),
+    url('TiemposHeadline-Medium.woff') format('woff'),
+    url('TiemposHeadline-Medium.ttf') format('truetype'),
+    url('TiemposHeadline-Medium.svg#roboto_condensedregular') format('svg');
+}
+@font-face {
+    font-family: 'Material-Design-Iconic-Font';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: local('Material-Design-Iconic-Font'), local('Material-Design-Iconic-Font'),
+    url('Material-Design-Iconic-Font.woff2') format('woff2'),
+    url('Material-Design-Iconic-Font.woff') format('woff'),
+    url('Material-Design-Iconic-Font.ttf') format('truetype');
+}
