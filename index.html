@@ -7,8 +7,7 @@
   <meta name="description" content="Landing page">
   <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Home</title>
-  <link rel="stylesheet" type="text/css" href="plugin/fancybox.css">
-  <link rel="stylesheet" type="text/css" href="plugins/animate.css">
+  <link rel="stylesheet" type="text/css" href="plugins/fancybox.css">
   <link rel="stylesheet" type="text/css" href="plugins/fullpage/fullpage.min.css">
   <link rel="stylesheet" type="text/css" href="css/landing-page-project.css">
 </head>
@@ -58,7 +57,7 @@
       <div class="container is-inner">
         <div class="row">
           <div class="col-lg-6">
-            <div class="project-scale-card d-flex flex-row flex-lg-column align-items-center">
+            <div class="project-scale-card d-flex flex-row flex-lg-column align-items-center wow fadeInUp">
               <i class="zmdi zmdi-city-alt"></i>
               <p>2 Block 30 tầng & 1 tầng lửng</p>
             </div>
@@ -998,8 +997,6 @@
 <script src="plugins/arcontactus.js"></script>
 <script src="plugins/fancybox.js"></script>
 <script src="plugins/fullpage/fullpage.js"></script>
-<script src="plugins/wow.js"></script>
-<script src="plugins/animate-it.js"></script>
 <script type="text/javascript">
 
   $('.btn-info-contact').click(function() {
@@ -1035,15 +1032,6 @@
         jQuery(this).addClass('active')
       }, function() {})
     }
-
-    var wow = new WOW({
-      boxClass:     'wow',
-      animateClass: 'animated',
-      offset:       0,
-      mobile:       true,
-      live:         true,
-    })
-    wow.init();
   });
 
   //header menu
