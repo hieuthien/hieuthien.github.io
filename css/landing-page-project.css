@@ -9661,7 +9661,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 
 .form-group-material input:focus ~ label {
   top: 4px;
-  left: 16px;
+  left: 12px;
   font-size: 0.625rem;
   color: #30333a;
   opacity: 0.7;
@@ -9674,7 +9674,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 
 .form-group-material input:valid ~ label {
   top: 4px;
-  left: 16px;
+  left: 12px;
   font-size: 0.625rem;
   color: #30333a;
   opacity: 0.7;
@@ -9690,10 +9690,7 @@ select.form-control-lg:not([size]):not([multiple]) {
   min-height: 48px;
   padding: 20px 12px 2px;
   resize: none;
-  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out; }
 
 .form-group-material textarea:focus {
@@ -9704,7 +9701,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 
 .form-group-material textarea:focus ~ label {
   top: 4px;
-  left: 16px;
+  left: 12px;
   font-size: 0.625rem;
   color: #30333a;
   opacity: 0.7;
@@ -9715,7 +9712,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 
 .form-group-material textarea:valid ~ label {
   top: 4px;
-  left: 16px;
+  left: 12px;
   font-size: 0.625rem;
   color: #30333a;
   opacity: 0.7;
@@ -12570,10 +12567,12 @@ select.form-control-lg:not([size]):not([multiple]) {
   padding: 8px 20px 8px 60px;
   position: relative;
   min-height: 54px;
-  text-decoration: none; }
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 200ms ease-in; }
 
 .arcontactus-widget .messanger:hover {
-  background-color: #eee; }
+  background-color: #f3f4f7; }
 
 .arcontactus-widget .messanger:before {
   background-repeat: no-repeat;
@@ -12716,7 +12715,7 @@ select.form-control-lg:not([size]):not([multiple]) {
   -ms-flex-align: start;
   -webkit-align-items: flex-start;
   align-items: flex-start;
-  padding: 14px 0;
+  padding: 8px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-border-radius: 7px;
@@ -12987,9 +12986,9 @@ select.form-control-lg:not([size]):not([multiple]) {
   border-radius: 50%;
   margin: 12px 8px 12px auto;
   color: #30333a;
-  -webkit-transition: 250ms all;
-  -o-transition: 250ms all;
-  transition: 250ms all; }
+  -webkit-transition: 250ms all ease-in;
+  -o-transition: 250ms all ease-in;
+  transition: 250ms all ease-in; }
 
 .nav-menu .close-menu:hover {
   background: #f3f4f7; }
@@ -13006,7 +13005,6 @@ select.form-control-lg:not([size]):not([multiple]) {
 
 .nav-menu ul li {
   display: block;
-  border-bottom: 1px solid rgba(48, 51, 58, 0.1);
   margin: 0 16px; }
 
 .nav-menu ul li a {
@@ -13014,15 +13012,16 @@ select.form-control-lg:not([size]):not([multiple]) {
   width: 100%;
   height: 100%;
   padding: 16px;
+  border-radius: 8px;
   text-align: right;
   font-family: "RV-Harmonia-Semibold";
   font-size: 16px;
   line-height: 1.5;
   color: #30333a;
   cursor: pointer;
-  -webkit-transition: 250ms all;
-  -o-transition: 250ms all;
-  transition: 250ms all; }
+  -webkit-transition: 250ms all ease-in;
+  -o-transition: 250ms all ease-in;
+  transition: 250ms all ease-in; }
 
 .nav-menu ul li a:hover {
   background: #f3f4f7; }
@@ -13170,7 +13169,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 
 .project-intro {
   position: relative;
-  background: url("../images/kingcrown/banner-home-mobile.jpg") no-repeat center/cover; }
+  background: url("../images/kingcrown/kingcrow.jpeg") no-repeat center/cover; }
 
 .project-intro::before {
   content: "";
@@ -13876,7 +13875,8 @@ select.form-control-lg:not([size]):not([multiple]) {
   overflow: hidden;
   position: absolute;
   top: 0;
-  width: 100%; }
+  width: 100%;
+  transition: all 200ms ease-in; }
 
 .project-news .card-news .card-title {
   display: -webkit-box;
@@ -13966,6 +13966,7 @@ select.form-control-lg:not([size]):not([multiple]) {
   left: 0;
   width: 100%;
   height: 100%;
+  border-radius: 8px;
   background: rgba(0, 0, 0, 0.65);
   z-index: 0;
   -webkit-transition: 250ms all;
@@ -14274,3 +14275,4 @@ footer {
 @media screen and (max-width: 768px) {
   footer {
     display: block; } }
+.fullscreen-view{position:fixed;top:0;left:0;width:100%;height:100%;z-index:110;background:#000;display:block}.fullscreen-view .fullscreen-fill{position:absolute;top:0;left:0;width:100%;height:100%;z-index:10}.fullscreen-view .fullscreen-content{width:100%}.fullscreen-view.welcome-screen{display:block;background:#BB987F;z-index:99999}.fullscreen-view.welcome-screen .logo-rever{width:auto;height:60px;object-fit:contain}.fullscreen-view.welcome-screen .zmdi{padding:0 86px}.fullscreen-view.welcome-screen .letter-x{width:24px;height:24px;margin:0 86px}.fullscreen-view.welcome-screen .logo-kingcrown,.fullscreen-view.welcome-screen .logo-project{width:auto;height:130px;filter:brightness(0) invert(1)}.fullscreen-view.welcome-screen .logo-the-9-stellar{height:120px}
