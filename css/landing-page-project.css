@@ -69,7 +69,8 @@ body {
   line-height: 1.5;
   color: #30333a;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fff;
+  overflow-x: hidden !important;}
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
